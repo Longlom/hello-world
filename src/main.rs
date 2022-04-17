@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello world from Long! And configured gitlab");
+    println!("Hello world from Rust Application");
 }

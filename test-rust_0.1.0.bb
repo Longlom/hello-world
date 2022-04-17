@@ -8,10 +8,10 @@ inherit cargo
 # how to get test-rust could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/test-rust/0.1.0"
 SRC_URI += "git://git@github.com/Longlom/hello-world.git;protocol=ssh;nobranch=1"
-SRCREV = "2455ccc997ce1cf9a43bf44cbc98c687ea3dedca"
+SRCREV = "98c2f28333e97416282e6852fd0c5fcdf55d40d4"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV_append = ".AUTOINC+2455ccc997"
+PV_append = ".AUTOINC+98c2f28333"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
